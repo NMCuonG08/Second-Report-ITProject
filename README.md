@@ -62,7 +62,7 @@ Consider the sentence: “The cat sat on the mat.”
 
 ![image](https://github.com/user-attachments/assets/e17a7801-2c0d-4934-8613-92b7b1b1dc90)
 
-## 1. What is Similarity Search
+## 2. What is Similarity Search
 
 
 
