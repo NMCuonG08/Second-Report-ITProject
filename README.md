@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/a7c88f31-1ff9-4eb4-8282-cc679545cd54)# Second-Report-ITProject
+# Second Report IT Project
 about `Embedding` and `Similarity Search`
 
 
