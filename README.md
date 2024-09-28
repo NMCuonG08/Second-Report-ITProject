@@ -82,5 +82,23 @@ Consider the sentence: “The cat sat on the mat.”
 
 ## 3. What is Retrieval Augmented Generation (RAG)
 
+with the document 
+
+![image](https://github.com/user-attachments/assets/236a3977-c9d5-4acc-9c66-a0ecc1b6667b)
+
+After Chat app using RAG :
+
+![image](https://github.com/user-attachments/assets/07c557c1-4bf6-48af-b076-1e0d2eb66b04)
+
+
+
+
+
+
+
+
+
+
+
 
 
