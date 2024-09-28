@@ -64,7 +64,19 @@ Consider the sentence: “The cat sat on the mat.”
 
 ## 2. What is Similarity Search
 
+![image](https://github.com/user-attachments/assets/fb04156f-faad-4a7a-a441-33468f8a793a)
 
+
+>Similarity Search uses vectors from Word Embeddings to measure the similarity between words or text segments using methods such as Cosine Similarity, Euclidean Distance, etc. This helps identify words with similar meanings or related content
+
+- $\text{Cosine Similarity} = \frac{\mathbf{A} \cdot \mathbf{B}}{\|\mathbf{A}\| \times \|\mathbf{B}\|}$
+
+
+![image](https://github.com/user-attachments/assets/748ba2e2-5fe1-4b2e-b98c-7159080309ed)
+
+- $\text{Euclidean Distance} = \sqrt{(A_1 - B_1)^2 + (A_2 - B_2)^2 + \ldots + (A_n - B_n)^2}$
+
+![image](https://github.com/user-attachments/assets/d3306b76-48fe-4bbb-9f8d-132c7bddaa0c)
 
 
 
