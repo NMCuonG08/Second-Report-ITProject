@@ -80,7 +80,7 @@ Consider the sentence: “The cat sat on the mat.”
 
 
 
-
+## 3. What is Retrieval Augmented Generation (RAG)
 
 
 
