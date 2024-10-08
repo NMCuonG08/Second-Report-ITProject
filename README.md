@@ -100,7 +100,7 @@ Trong đó:
 
 
 ## What is RAG ( Retrieval-Augmented Generation )
- Đây là một phương pháp trong lĩnh vực trí tuệ nhân tạo và xử lý ngôn ngữ tự nhiên (NLP) kết hợp giữa việc truy xuất thông tin và sinh văn bản. Phương pháp này thường được sử dụng để cải thiện khả năng tạo ra văn bản chất lượng cao hơn, bằng cách tích hợp thông tin từ một cơ sở dữ liệu hoặc tài liệu bên ngoài.
+- Đây là một phương pháp trong lĩnh vực trí tuệ nhân tạo và xử lý ngôn ngữ tự nhiên (NLP) kết hợp giữa việc truy xuất thông tin và sinh văn bản. Phương pháp này thường được sử dụng để cải thiện khả năng tạo ra văn bản chất lượng cao hơn, bằng cách tích hợp thông tin từ một cơ sở dữ liệu hoặc tài liệu bên ngoài.
 
 - Như em hiểu được thì chương trình sẽ tìm được các vector embeddings có các độ tương đồng với câu truy vấn và RAG sẽ tận dụng các embedding vector để xác định các thông tin liên quan và từ đó tạo ra các câu trả lời hợp lý dựa trên nội dung của tài liệu đã tìm thấy. Hệ thống  sử dụng từ khóa và ý tưởng chính từ các tài liệu này để sinh ra phản hồi phù hợp nhất với yêu cầu của người dùng.
 
