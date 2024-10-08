@@ -42,9 +42,12 @@ for idx, doc in enumerate(similar_docs):
     print("=" * 100)
 ```
 
-Với đoạn code này em sẽ sử dụng Embedding model từ  [ollama](ollama.com) tên là nomic-embed-text
+- Với đoạn code này em sẽ sử dụng Embedding model từ  [ollama](https://ollama.com/blog/embedding-models) tên là nomic-embed-text
 
+- Với câu truy vẫn là `query = "Explain the concept of machine learning"`
+- Và một đoạn văn như file pdf [Machine Learning](./data/Machine learning - Wikipedia.pdf)
 
+![image](https://github.com/user-attachments/assets/1c706548-8e0e-42ab-80bf-5317063348a5)
 
 
 
