@@ -45,11 +45,11 @@ for idx, doc in enumerate(similar_docs):
 - Với đoạn code này em sẽ sử dụng Embedding model từ  [ollama](https://ollama.com/blog/embedding-models) tên là nomic-embed-text
 
 - Với câu truy vẫn là `query = "Explain the concept of machine learning"`
-- Và một đoạn văn như file pdf [Machine Learning](./data/Machine learning - Wikipedia.pdf)
+- Và một đoạn văn như file pdf [Machine Learning](https://github.com/NMCuonG08/Second-Report-ITProject/blob/main/data/Machine%20learning%20-%20Wikipedia.pdf)
 
 ![image](https://github.com/user-attachments/assets/1c706548-8e0e-42ab-80bf-5317063348a5)
 
-
+- Với Cosine Similarity: 0.6781 cho thấy có sự tương đồng cao giữa thông tin của tài liệu và của câu truy vẫn 
 
 
 
