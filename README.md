@@ -42,7 +42,7 @@ for idx, doc in enumerate(similar_docs):
     print("=" * 100)
 ```
 
-- Với đoạn code này em sẽ sử dụng Embedding model từ  [ollama](https://ollama.com/blog/embedding-models) tên là nomic-embed-text
+- Với đoạn code này em sẽ sử dụng Embedding model từ  [ollama](https://ollama.com/blog/embedding-models) tên là  [nomic-embed-text](https://ollama.com/library/nomic-embed-text)
 
 #### Với câu truy vẫn là `query = "Explain the concept of machine learning"`
 - Và một đoạn văn như file pdf [Machine Learning](https://github.com/NMCuonG08/Second-Report-ITProject/blob/main/data/Machine%20learning%20-%20Wikipedia.pdf)
@@ -70,4 +70,32 @@ Trong đó:
   ![image](https://github.com/user-attachments/assets/a75eb4d1-840d-487f-a492-c5ae384eae8d)
 
 - Có thể nhận thấy với trường hợp sử dụng tiếng  việt giá trị `Cosine Similarity: 0.3678` khá là thấp khi  mà so sánh với khi sử dụng với tiếng anh. Việc này có thể là do cấu trúc của tiếng anh khác so với tiếng việt. Hoặc mô hình này được huấn luyện trên dữ liệu bằng tiếng anh là chủ yếu và nó sẽ tối ưu tốt hơn trên tiếng anh. 
+
+
+## Với model thứ 2 em sử dụng model tên là [mxbai-embed-large](https://ollama.com/library/mxbai-embed-large)
+
+![image](https://github.com/user-attachments/assets/f048df07-c554-4926-acfc-82283de76880)
+
+
+![image](https://github.com/user-attachments/assets/7654357c-f190-4bab-b8f7-3e52f601d95a)
+
+![image](https://github.com/user-attachments/assets/4e712238-77d3-446c-baae-f0652831fcf9)
+
+
+- Với mô hình này thì `Cosine Similarity: 0.4535` với câu truy vấn tiếng việt và `Cosine Similarity: 0.729` khi câu truy vấn là tiếng anh. Có thể nhận thấy model này có vẻ chất lượng hơn khi có độ tương đồng cao hơn [nomic-embed-text](https://ollama.com/library/nomic-embed-text)
+
+
+## Với model thứ 2 em sử dụng model tên là jina/jina-embeddings-v2-base-en]([https://ollama.com/library/mxbai-embed-large](https://ollama.com/jina/jina-embeddings-v2-base-en))
+
+![image](https://github.com/user-attachments/assets/a7f80fed-d319-471e-a3bd-ac625ff02bdd)
+
+![image](https://github.com/user-attachments/assets/e036aff0-ae45-49b0-b65f-57b76f070742)
+
+
+- Với mô hình này thì `Cosine Similarity: 0.6406` với câu truy vấn tiếng việt và `Cosine Similarity: 0.8909` khi câu truy vấn là tiếng anh. Có thể nhận thấy model này có chất lượng cao nhất khi so với 2 model kia.
+
+
+
+
+
 
