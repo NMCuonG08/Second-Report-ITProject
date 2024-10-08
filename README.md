@@ -49,7 +49,11 @@ for idx, doc in enumerate(similar_docs):
 
 ![image](https://github.com/user-attachments/assets/1c706548-8e0e-42ab-80bf-5317063348a5)
 
-- Sử dụng công thức tính Cosine Similarity bằng thư viện của `scikit-learn`
+- Document embedding là một cách biểu diễn nội dung của một tài liệu (document) thành một vector (mảng số) trong không gian nhiều chiều. Mỗi vector đại diện cho các đặc trưng của tài liệu, giúp mô hình có thể hiểu và xử lý nội dung của nó một cách hiệu quả.
+
+- Query embedding là vector biểu diễn cho một truy vấn (query) mà người dùng đưa ra, trong trường hợp này là câu hỏi hoặc nội dung mà người dùng muốn tìm kiếm. Nó cũng là một vector trong không gian nhiều chiều, tương tự như document embedding.
+
+- Cosine similarity là một phương pháp đo lường độ tương đồng giữa hai vector . Có giá trị từ -1 đến 1( tăng từ hoàn toàn trái ngược đến hoàn toàn tương đồng ).  Sử dụng công thức tính Cosine Similarity bằng thư viện của `scikit-learn`
 
 
  $\text{Cosine Similarity} = \frac{\mathbf{A} \cdot \mathbf{B}}{\|\mathbf{A}\| \times \|\mathbf{B}\|}$
