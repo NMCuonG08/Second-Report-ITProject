@@ -42,4 +42,12 @@ for idx, doc in enumerate(similar_docs):
     print("=" * 100)
 ```
 
-Với đoạn code này em sẽ sử dụng Embedding model từ [ollama.com](ollama)
+Với đoạn code này em sẽ sử dụng Embedding model từ  [ollama](ollama.com) tên là nomic-embed-text
+
+
+
+
+
+
+
+
