@@ -104,6 +104,22 @@ Trong đó:
 
 - Như em hiểu được thì chương trình sẽ tìm được các vector embeddings có các độ tương đồng với câu truy vấn và RAG sẽ tận dụng các embedding vector để xác định các thông tin liên quan và từ đó tạo ra các câu trả lời hợp lý dựa trên nội dung của tài liệu đã tìm thấy. Hệ thống  sử dụng từ khóa và ý tưởng chính từ các tài liệu này để sinh ra phản hồi phù hợp nhất với yêu cầu của người dùng.
 
+```python
+raq_template = """Answer the question based only on the following context: {context}
+
+Question: {question}
+"""
+
+rag_prompt = ChatPromptTemplate.from_template(raq_template)
+
+rag_chain = (
+        {"context": retriever, "question": RunnablePassthrough()}
+        | rag_prompt
+        | llm
+        | StrOutputParser()
+)
+```
+
 ![image](https://github.com/user-attachments/assets/ce9e061c-5ed8-4750-8579-7f20f894a5d6)
 
 
