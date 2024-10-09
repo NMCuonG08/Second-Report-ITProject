@@ -1,4 +1,4 @@
-## Embedding and Similarity search
+## :rocket:  Embedding and Similarity search
 
 ```python
 from langchain_core.prompts import ChatPromptTemplate
@@ -78,7 +78,7 @@ Trong đó:
 
 
 
-## Với model thứ 2 em sử dụng model tên là [mxbai-embed-large](https://ollama.com/library/mxbai-embed-large)
+## :sparkles: Với model thứ 2 em sử dụng model tên là [mxbai-embed-large](https://ollama.com/library/mxbai-embed-large)
 
 ![image](https://github.com/user-attachments/assets/f048df07-c554-4926-acfc-82283de76880)
 
@@ -91,7 +91,7 @@ Trong đó:
 - Với mô hình này thì `Cosine Similarity: 0.4535` với câu truy vấn tiếng việt và `Cosine Similarity: 0.729` khi câu truy vấn là tiếng anh. Có thể nhận thấy model này có vẻ chất lượng hơn khi có độ tương đồng cao hơn [nomic-embed-text](https://ollama.com/library/nomic-embed-text)
 
 
-## Với model thứ 2 em sử dụng model tên là [jina/jina-embeddings-v2-base-en]([https://ollama.com/library/mxbai-embed-large](https://ollama.com/jina/jina-embeddings-v2-base-en))
+## :sparkles: Với model thứ 2 em sử dụng model tên là [jina/jina-embeddings-v2-base-en]([https://ollama.com/library/mxbai-embed-large](https://ollama.com/jina/jina-embeddings-v2-base-en))
 
 ![image](https://github.com/user-attachments/assets/a7f80fed-d319-471e-a3bd-ac625ff02bdd)
 
@@ -103,7 +103,7 @@ Trong đó:
 
 
 
-## What is RAG ( Retrieval-Augmented Generation )
+## :rocket:  What is RAG ( Retrieval-Augmented Generation )
 - Đây là một phương pháp trong lĩnh vực trí tuệ nhân tạo và xử lý ngôn ngữ tự nhiên (NLP) kết hợp giữa việc truy xuất thông tin và sinh văn bản. Phương pháp này thường được sử dụng để cải thiện khả năng tạo ra văn bản chất lượng cao hơn, bằng cách tích hợp thông tin từ một cơ sở dữ liệu hoặc tài liệu bên ngoài.
 
 - Như em hiểu được thì chương trình sẽ tạo ra các vector embeddings có các độ tương đồng với câu truy vấn bằng các embedding model và RAG sẽ tận dụng các embedding vector để xác định các thông tin liên quan và từ đó tạo ra các câu trả lời hợp lý dựa trên nội dung của tài liệu đã tìm thấy. Hệ thống  sử dụng từ khóa và ý tưởng chính từ các tài liệu này để sinh ra phản hồi phù hợp nhất với yêu cầu của người dùng.
