@@ -93,6 +93,9 @@ Trong đó:
 
 ## :sparkles: Với model thứ 2 em sử dụng model tên là [jina/jina-embeddings-v2-base-en]([https://ollama.com/library/mxbai-embed-large](https://ollama.com/jina/jina-embeddings-v2-base-en))
 
+![image](https://github.com/user-attachments/assets/9b5f7454-3334-4459-ac2c-f2f3d1a1ec9a)
+
+
 ![image](https://github.com/user-attachments/assets/a7f80fed-d319-471e-a3bd-ac625ff02bdd)
 
 ![image](https://github.com/user-attachments/assets/e036aff0-ae45-49b0-b65f-57b76f070742)
