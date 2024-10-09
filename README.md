@@ -89,7 +89,7 @@ Trong đó:
 - Với mô hình này thì `Cosine Similarity: 0.4535` với câu truy vấn tiếng việt và `Cosine Similarity: 0.729` khi câu truy vấn là tiếng anh. Có thể nhận thấy model này có vẻ chất lượng hơn khi có độ tương đồng cao hơn [nomic-embed-text](https://ollama.com/library/nomic-embed-text)
 
 
-### Với model thứ 2 em sử dụng model tên là [jina/jina-embeddings-v2-base-en]([https://ollama.com/library/mxbai-embed-large](https://ollama.com/jina/jina-embeddings-v2-base-en))
+## Với model thứ 2 em sử dụng model tên là [jina/jina-embeddings-v2-base-en]([https://ollama.com/library/mxbai-embed-large](https://ollama.com/jina/jina-embeddings-v2-base-en))
 
 ![image](https://github.com/user-attachments/assets/a7f80fed-d319-471e-a3bd-ac625ff02bdd)
 
