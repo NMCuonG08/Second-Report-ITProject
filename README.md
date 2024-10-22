@@ -81,18 +81,25 @@ These cosine similarity values indicate that the embedding models have effective
 
 With Model : `nomic-embed-text`
 
+query = "`What is artificial intelligence`"
+
+query = "`Trí tuệ nhân tạo là gì`"
+
 ### 1. Using English documentation.
 
-![image](https://github.com/user-attachments/assets/1e22b5ab-84ad-4423-ad16-f7235ba79660)
 
 
 
 
 
 
+![image](https://github.com/user-attachments/assets/18dce216-1b89-4158-8ee8-c6a148d0f510)
 
 
+2. Using Vietnamese documentation.
 
+
+![image](https://github.com/user-attachments/assets/8d94f25a-1529-4000-a940-a23f650275ff)
 
 
 
