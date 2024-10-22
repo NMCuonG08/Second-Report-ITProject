@@ -29,7 +29,7 @@ Quality of embeddings: The embeddings for both the queries and the Vietnamese do
 
 Semantic understanding: Although there is some similarity between the query and the Vietnamese document content, the model seems to struggle more with understanding the context and complex details of the language. The differences in embeddings between the document and query are not as aligned, which could reduce the accuracy of the results.
 
-
+> When the discrepancy is large, it indicates that the model is not well-optimized for Vietnamese, resulting in weaker semantic representation of Vietnamese text compared to English.
 
 ## :rocket:  Model: mxbai-embed-large
 
@@ -43,7 +43,7 @@ High results: The cosine similarity for the document with the corporate address 
 
 ![image](https://github.com/user-attachments/assets/5ea43c1f-6a1d-4764-8a2b-96794ad1f763)
 
-
+ => The cosine similarity results still have relatively high values, the Vietnamese texts may still be relevant to the query, but their semantic representation might not be as accurate as in English.
 
 ## :rocket:  Model: jina/jina-embeddings-v2-base-en
 
@@ -59,8 +59,28 @@ High quality: These cosine similarity values indicate that jina/jina-embeddings-
 
 These cosine similarity values indicate that the embedding models have effectively identified the correlation between the query and the content of the documents, enabling the provision of useful and relevant information to users. The use of Vietnamese does not diminish the quality of the content; rather, it helps preserve the meaning and context of the terms in the field of AI.
 
+> A model performs well with multiple languages: When the discrepancy is small, it indicates that the model performs fairly well in both languages, with nearly equivalent semantic representation for both English and Vietnamese.
 
 ## :rocket:  Model: `Qwen2` is a new series of large language models from Alibaba
+
+### 1. Using English documentation.
+
+![image](https://github.com/user-attachments/assets/f231e34d-4abb-4097-823d-030acf141492)
+
+
+
+### 2. Using Vietnamese documentation.
+
+
+![image](https://github.com/user-attachments/assets/06e134b2-7a10-40e8-9409-224a10bda0e4)
+
+> The performance of the "qwen2" embedding model, which appears to be more effective in processing Vietnamese compared to English, raises several considerations. Potential reasons for this may include differences in the training datasets used for each language, the model's architecture, or the specific characteristics of the languages themselves
+
+
+
+
+
+
 
 
 
