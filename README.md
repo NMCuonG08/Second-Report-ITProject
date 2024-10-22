@@ -2,7 +2,7 @@
 
 With Model : `nomic-embed-text`
 
-Use a multi-page PDF and a query related to multiple pages.
+Use a `multi-page PDF` and a query related to multiple pages.
 
 ### 1. Using English documentation.
 
@@ -41,6 +41,7 @@ High results: The cosine similarity for the document with the corporate address 
 
 ### 2. Using Vietnamese documentation.
 
+![image](https://github.com/user-attachments/assets/5ea43c1f-6a1d-4764-8a2b-96794ad1f763)
 
 
 
@@ -59,6 +60,7 @@ High quality: These cosine similarity values indicate that jina/jina-embeddings-
 These cosine similarity values indicate that the embedding models have effectively identified the correlation between the query and the content of the documents, enabling the provision of useful and relevant information to users. The use of Vietnamese does not diminish the quality of the content; rather, it helps preserve the meaning and context of the terms in the field of AI.
 
 
+## :rocket:  Model: `Qwen2` is a new series of large language models from Alibaba
 
 
 
