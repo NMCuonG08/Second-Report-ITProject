@@ -79,6 +79,11 @@ These cosine similarity values indicate that the embedding models have effective
 
 ## :rocket: Use multiple PDFs with related or similar content
 
+With Model : `nomic-embed-text`
+
+### 1. Using English documentation.
+
+![image](https://github.com/user-attachments/assets/1e22b5ab-84ad-4423-ad16-f7235ba79660)
 
 
 
