@@ -77,6 +77,28 @@ These cosine similarity values indicate that the embedding models have effective
 > The performance of the "qwen2" embedding model, which appears to be more effective in processing Vietnamese compared to English, raises several considerations. Potential reasons for this may include differences in the training datasets used for each language, the model's architecture, or the specific characteristics of the languages themselves
 
 
+## :rocket: Use multiple PDFs with related or similar content
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
