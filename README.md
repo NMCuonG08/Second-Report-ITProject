@@ -91,7 +91,7 @@ query = "`What is artificial intelligence`"
 
 query = "`Trí tuệ nhân tạo là gì`"
 
-### 1. Using English documentation.
+1. Using English documentation.
 
 
 
@@ -110,29 +110,41 @@ query = "`Trí tuệ nhân tạo là gì`"
 
 
 
-qwen2
+ ## qwen2
 
-
-![image](https://github.com/user-attachments/assets/2306e845-5672-47be-9186-57b6049f4b7f)
-
-
-
+1. Using English documentation.
 
 ![image](https://github.com/user-attachments/assets/7155cfd0-c936-488a-80f4-ca06bdd02123)
 
 
 ![image](https://github.com/user-attachments/assets/677d9564-0f0f-4e01-ac7a-ee84cf647a75)
 
-mxbai-embed-large
+2. Using Vietnamese documentation.
+
+![image](https://github.com/user-attachments/assets/2306e845-5672-47be-9186-57b6049f4b7f)
+
+
+
+
+## mxbai-embed-large
+
+1. Using English documentation.
 
 ![image](https://github.com/user-attachments/assets/84740b9d-afd1-43d3-8e31-a40db5d10641)
+
+2. Using Vietnamese documentation.
 
 ![image](https://github.com/user-attachments/assets/cea706c5-dd20-41c7-8d03-c16cb833b259)
 
 
 jina/jina-embeddings-v2-base-en
+
+1. Using English documentation.
+
 ![image](https://github.com/user-attachments/assets/f60ecddc-54fc-4cd7-bb43-857e152b5186)
 
+
+2. Using Vietnamese documentation.
 
 ![image](https://github.com/user-attachments/assets/bc9a51bf-81da-4f89-aa7f-4759750e4a51)
 
