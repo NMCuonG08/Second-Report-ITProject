@@ -82,8 +82,6 @@ These cosine similarity values indicate that the embedding models have effective
   
  -  In Vietnamese document: `jina/jina-embeddings-v2-base-en` >` qwen2` > `nomic-embed-text` >  `mxbai-embed-large` 
 
-### `Conclusion`:  The jina/jina-embeddings-v2-base-en model is the strongest for both languages, while qwen2 shows better optimization for Vietnamese. Models like nomic-embed-text and mxbai-embed-large need improvement to achieve higher performance, especially in Vietnamese contexts.
-
 ---
 
 ## :rocket: Use multiple PDFs with related or similar content
