@@ -76,6 +76,12 @@ These cosine similarity values indicate that the embedding models have effective
 
 > The performance of the "qwen2" embedding model, which appears to be more effective in processing Vietnamese compared to English, raises several considerations. Potential reasons for this may include differences in the training datasets used for each language, the model's architecture, or the specific characteristics of the languages themselves
 
+---
+
+- Comparison: In English document:` jina/jina-embeddings-v2-base-e`n > `nomic-embed-text` >  `mxbai-embed-large` > `qwen2`
+  
+ -  In Vietnamese document: `jina/jina-embeddings-v2-base-en` >` qwen2` > `nomic-embed-text` >  `mxbai-embed-large` 
+---
 
 ## :rocket: Use multiple PDFs with related or similar content
 
@@ -91,15 +97,17 @@ query = "`Trí tuệ nhân tạo là gì`"
 
 
 
+![image](https://github.com/user-attachments/assets/e7cf84f4-b4d8-4f65-943a-7280bbbacc69)
 
 
-![image](https://github.com/user-attachments/assets/18dce216-1b89-4158-8ee8-c6a148d0f510)
+
 
 
 2. Using Vietnamese documentation.
 
 
-![image](https://github.com/user-attachments/assets/8d94f25a-1529-4000-a940-a23f650275ff)
+![image](https://github.com/user-attachments/assets/289fbc0c-689e-470b-b474-97037bb3ead4)
+
 
 
 qwen2
