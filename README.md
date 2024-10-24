@@ -137,7 +137,7 @@ query = "`Trí tuệ nhân tạo là gì`"
 ![image](https://github.com/user-attachments/assets/cea706c5-dd20-41c7-8d03-c16cb833b259)
 
 
-jina/jina-embeddings-v2-base-en
+## jina/jina-embeddings-v2-base-en
 
 1. Using English documentation.
 
