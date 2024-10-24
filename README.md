@@ -101,23 +101,32 @@ query = "`Trí tuệ nhân tạo là gì`"
 
 ![image](https://github.com/user-attachments/assets/8d94f25a-1529-4000-a940-a23f650275ff)
 
+
+qwen2
+
+
 ![image](https://github.com/user-attachments/assets/2306e845-5672-47be-9186-57b6049f4b7f)
 
 
-qwen2
+
 
 ![image](https://github.com/user-attachments/assets/7155cfd0-c936-488a-80f4-ca06bdd02123)
 
 
 ![image](https://github.com/user-attachments/assets/677d9564-0f0f-4e01-ac7a-ee84cf647a75)
 
+mxbai-embed-large
+
+![image](https://github.com/user-attachments/assets/84740b9d-afd1-43d3-8e31-a40db5d10641)
+
+![image](https://github.com/user-attachments/assets/cea706c5-dd20-41c7-8d03-c16cb833b259)
 
 
+jina/jina-embeddings-v2-base-en
+![image](https://github.com/user-attachments/assets/f60ecddc-54fc-4cd7-bb43-857e152b5186)
 
 
-
-
-
+![image](https://github.com/user-attachments/assets/bc9a51bf-81da-4f89-aa7f-4759750e4a51)
 
 
 
