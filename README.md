@@ -114,8 +114,6 @@ query = "`Trí tuệ nhân tạo là gì`"
 
 1. Using English documentation.
 
-![image](https://github.com/user-attachments/assets/7155cfd0-c936-488a-80f4-ca06bdd02123)
-
 
 ![image](https://github.com/user-attachments/assets/677d9564-0f0f-4e01-ac7a-ee84cf647a75)
 
@@ -149,9 +147,11 @@ query = "`Trí tuệ nhân tạo là gì`"
 ![image](https://github.com/user-attachments/assets/bc9a51bf-81da-4f89-aa7f-4759750e4a51)
 
 
+- Comparison: In English document: ` jina/jina-embeddings-v2-base-en` > `nomic-embed-text` > `mxbai-embed-large` > `qwen2`
 
+- In Vietnamese document: `jina/jina-embeddings-v2-base-en > qwen2` > `mxbai-embed-large` > `nomic-embed-text` 
 
-
+=> The jina/jina-embeddings-v2-base-en model excels in both languages, while qwen2 performs better with Vietnamese. The nomic-embed-text and mxbai-embed-large models need improvement to handle more complex contexts in Vietnamese more effectively.
 
 
 
