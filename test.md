@@ -302,10 +302,22 @@ From VMs of previous tasks, install iptables and configure one of the 2 VMs as a
 apt install iptables -y
 ```
 
-## 2. Blocking HTTP 
+## 2. Run docker images 
 
 ```bash
-sudo iptables -A INPUT -p tcp --dport 80 -j DROP
+docker run --cap-add=NET_ADMIN --name o-receiver -it ubuntu /bin/bash
+docker run --cap-add=NET_ADMIN --name s-sender -it ubuntu /bin/bash
+```
+
+![image](https://github.com/user-attachments/assets/d77a4308-a541-49b2-927d-08681eb56286)
+
+
+
+## 2. Blocking HTTP 
+
+
+```bash
+iptables -A INPUT -p tcp --dport 80 -j DROP
 ```
 
 
