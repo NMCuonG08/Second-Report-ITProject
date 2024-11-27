@@ -296,18 +296,19 @@ From VMs of previous tasks, install iptables and configure one of the 2 VMs as a
 
 **Answer 1**:
 
-## 1. Install iptables
+## 1. Run docker images 
+
+```bash
+docker run --cap-add=NET_ADMIN --name receiver -it ubuntu /bin/bash
+docker run --cap-add=NET_ADMIN --name sender -it ubuntu /bin/bash
+```
+
+## 2. Install iptables
 
 ```bash
 apt install iptables -y
 ```
 
-## 2. Run docker images 
-
-```bash
-docker run --cap-add=NET_ADMIN --name o-receiver -it ubuntu /bin/bash
-docker run --cap-add=NET_ADMIN --name s-sender -it ubuntu /bin/bash
-```
 
 ![image](https://github.com/user-attachments/assets/d77a4308-a541-49b2-927d-08681eb56286)
 
@@ -319,6 +320,26 @@ docker run --cap-add=NET_ADMIN --name s-sender -it ubuntu /bin/bash
 ```bash
 iptables -A INPUT -p tcp --dport 80 -j DROP
 ```
+
+
+## 3. Blocking icmp
+
+- From the `Receiver` machime
+
+```bash
+ping 172.17.0.2
+```
+
+![image](https://github.com/user-attachments/assets/3713b728-a95a-4169-b946-2bd5e69de0b2)
+
+
+
+
+
+
+
+
+
 
 
 
